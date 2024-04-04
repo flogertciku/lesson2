@@ -1,0 +1,76 @@
+.inline-block{
+    display: inline-block;
+    vertical-align:middle
+}
+.container{
+    background-color: rgb(55, 55, 216);
+}
+header {
+    /* ben parentin ti kete femijet ne linje */
+    display: flex;
+    /* cakton si do vendosen horizontalisht */
+    justify-content: space-evenly;
+    /* cakton si do vendosen vertikalisht */
+    align-items: center;
+    /* background-color: blue; */
+    /* height: 800px; */
+}
+.Donate{
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.search{
+    padding: 10px;
+}
+.Go{
+    padding: 10px;
+    background-color: rgb(15, 15, 80);
+    color: aliceblue;
+}
+.search-bar{
+    background-color: rgb(4, 4, 41);
+    padding: 10px;
+    border-radius: 10px;
+}
+.search-bar a {
+    text-decoration:none;
+    color: white;
+    border-left: 1px solid black;
+    margin-left: 15px;
+    padding: 20px 20px;
+}
+.d-flex{
+    display: flex;
+}
+.center{
+    justify-content: space-evenly;
+    /* cakton si do vendosen vertikalisht */
+    align-items: center;
+}
+.navbar{
+    background-color: aqua;
+    margin: 0px 15%;
+    color: aliceblue;
+}
+
+.navbar li { 
+    border-right: 2px solid black;
+    padding: 10px 10px;
+    list-style-type: none;
+
+}
+/*   tag =1 class =10 id =100   */
+#lastChild{
+    border-right: none;
+}
+
+h2{
+    background-color: black;
+    color: white;
+}
+h2 span{
+    color: aqua;
+}
